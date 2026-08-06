@@ -14,36 +14,40 @@ const galleryImages = [
   "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.03 (4).jpeg",
   "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.04.jpeg",
   "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.04 (1).jpeg",
-  "Harold & Somadina/Igba Nkwu/IMG_3104.PNG",
-  "Harold & Somadina/Igba Nkwu/IMG_3105.PNG",
-  "Harold & Somadina/Igba Nkwu/IMG_3106.PNG",
-  "Harold & Somadina/Igba Nkwu/IMG_3107.JPEG",
-  "Harold & Somadina/Igba Nkwu/IMG_3108.JPEG",
-  "Harold & Somadina/Igba Nkwu/IMG_3109.JPEG"
+  "Harold & Somadina/IMG_1733.JPG.jpeg",
+  "Harold & Somadina/IMG_3228_bg_blurred.jpg",
+  "Harold & Somadina/Ime ego/IMG_3104.PNG",
+  "Harold & Somadina/Ime ego/IMG_3105.PNG",
+  "Harold & Somadina/Ime ego/IMG_3106.PNG",
+  "Harold & Somadina/Ime ego/IMG_3107.JPEG",
+  "Harold & Somadina/Ime ego/IMG_3108.JPEG",
+  "Harold & Somadina/Ime ego/IMG_3109.JPEG"
 ];
 
 // Stable, permanent labels shown at the top of the photo viewer. These are
 // tied to the photo itself (not to its position in the shuffled filmstrip),
 // so a given photo always shows the same title no matter the browse order.
 const galleryTitles = {
-  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.02.jpeg": "Image 01",
-  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.02 (1).jpeg": "Image 02",
-  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.02 (2).jpeg": "Image 03",
-  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.02 (3).jpeg": "Image 04",
-  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.02 (4).jpeg": "Image 05",
-  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.03.jpeg": "Image 06",
-  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.03 (1).jpeg": "Image 07",
-  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.03 (2).jpeg": "Image 08",
-  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.03 (3).jpeg": "Image 09",
-  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.03 (4).jpeg": "Image 10",
-  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.04.jpeg": "Image 11",
-  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.04 (1).jpeg": "Image 12",
-  "Harold & Somadina/Igba Nkwu/IMG_3104.PNG": "Igba Nkwu",
-  "Harold & Somadina/Igba Nkwu/IMG_3105.PNG": "Igba Nkwu",
-  "Harold & Somadina/Igba Nkwu/IMG_3106.PNG": "Igba Nkwu",
-  "Harold & Somadina/Igba Nkwu/IMG_3107.JPEG": "Igba Nkwu",
-  "Harold & Somadina/Igba Nkwu/IMG_3108.JPEG": "Igba Nkwu",
-  "Harold & Somadina/Igba Nkwu/IMG_3109.JPEG": "Igba Nkwu"
+  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.02.jpeg": "random jpegs",
+  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.02 (1).jpeg": "random jpegs",
+  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.02 (2).jpeg": "random jpegs",
+  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.02 (3).jpeg": "random jpegs",
+  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.02 (4).jpeg": "random jpegs",
+  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.03.jpeg": "random jpegs",
+  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.03 (1).jpeg": "random jpegs",
+  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.03 (2).jpeg": "random jpegs",
+  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.03 (3).jpeg": "random jpegs",
+  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.03 (4).jpeg": "random jpegs",
+  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.04.jpeg": "random jpegs",
+  "Harold & Somadina/WhatsApp Image 2026-07-17 at 14.45.04 (1).jpeg": "random jpegs",
+  "Harold & Somadina/IMG_1733.JPG.jpeg": "random jpegs",
+  "Harold & Somadina/IMG_3228_bg_blurred.jpg": "random jpegs",
+  "Harold & Somadina/Ime ego/IMG_3104.PNG": "Ime ego",
+  "Harold & Somadina/Ime ego/IMG_3105.PNG": "Ime ego",
+  "Harold & Somadina/Ime ego/IMG_3106.PNG": "Ime ego",
+  "Harold & Somadina/Ime ego/IMG_3107.JPEG": "Ime ego",
+  "Harold & Somadina/Ime ego/IMG_3108.JPEG": "Ime ego",
+  "Harold & Somadina/Ime ego/IMG_3109.JPEG": "Ime ego"
 };
 
 function getPhotoTitle(src) {
